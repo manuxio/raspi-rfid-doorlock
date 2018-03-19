@@ -1,0 +1,35 @@
+{
+  "name": "doorlock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cross-env DEBUG_COLORS=true DEBUG=nfc-* babel-watch src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-watch": "^2.0.7",
+    "body-parser": "^1.18.2",
+    "cross-env": "^5.1.4",
+    "debug": "^3.1.0",
+    "eslint": "^4.18.2",
+    "eslint-config-es5": "^0.5.0",
+    "eslint-plugin-es5": "^1.2.0",
+    "eventemitter2": "^5.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mfrc522-rpi": "git://github.com/manuxio/mfrc522-rpi.git#writeBlockResult",
+    "moment": "^2.21.0",
+    "morgan": "^1.9.0",
+    "promise-mysql": "^3.2.1",
+    "text-encoding": "^0.6.4",
+    "wiring-pi": "^2.2.1"
+  }
+}
